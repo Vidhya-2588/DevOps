@@ -14,7 +14,7 @@ public class BrowserActivities {
 		System.out.println(driver.getCurrentUrl());
 		driver.navigate().forward();
 		System.out.println(driver.getCurrentUrl());
-		System.out.println(driver.getCurrentUrl());
+		System.out.println("url is displayed");
 	}
 
 }
