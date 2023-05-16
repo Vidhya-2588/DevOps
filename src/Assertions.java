@@ -18,6 +18,7 @@ public class Assertions {
 		driver.findElement(By.cssSelector("input[id*='friendsandfamily']")).click();
 		Assert.assertTrue(driver.findElement(By.cssSelector("input[id*='friendsandfamily']")).isSelected());
 		//System.out.println(driver.findElement(By.cssSelector("input[id*='friendsandfamily']")).isSelected());
+		System.out.println("Assertion Done");
 	}
 
 }
